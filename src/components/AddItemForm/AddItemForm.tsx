@@ -33,7 +33,7 @@ function AddItemForm(props: AddItemFormPropsType) {
     return (
         <div>
             <div style={{display: 'flex', alignItems: 'center', gap: 10}}>
-                <TextField
+                <TextField fullWidth
                     type='text' value={newTaskTitle}
                     id="standard-basic" variant="outlined"
                     label={'Введите значение'}
